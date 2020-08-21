@@ -2,7 +2,12 @@
 
 import 'package:flutter/material.dart';
 
-void main() => runApp(HeroApp());
+void main() {
+  runApp(MaterialApp(
+    title: 'Hero Animations',
+    home: HeroApp(),
+  ));
+}
 
 class HeroApp extends StatelessWidget {
   @override
