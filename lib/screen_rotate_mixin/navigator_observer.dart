@@ -1,7 +1,7 @@
+// https://medium.com/flutter-community/controlling-screen-orientation-in-flutter-apps-on-a-per-screen-basis-d637702f9368
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-/// https://medium.com/flutter-community/controlling-screen-orientation-in-flutter-apps-on-a-per-screen-basis-d637702f9368
 
 class NavigatorObserverWithOrientation extends NavigatorObserver {
   @override
