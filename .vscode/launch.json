@@ -1,0 +1,35 @@
+{
+  // NOTE: `launch.json` lives in the .vscode directory. 
+  // It is normally exculded from git but this project tracks it for reference
+  //
+  // Add the following to global `.gitignore` file
+  // ```txt
+  //   .vscode/*
+  //   !.vscode/launch.json
+  // ```
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  // Add --verbose to args https://github.com/Dart-Code/Dart-Code/issues/2514
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter Debug",
+      // "program": "lib/main.dart",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--verbose"
+      ]
+    },
+    {
+      // Profile Mode - App CANNOT use default com.example.<app_name>
+      // Must change signing id to custom (ex com.chicagoworks.<app_name>)
+      "name": "Flutter Profile",
+      "program": "lib/provider/breakdown/provider_layout_2.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    }
+  ]
+}
