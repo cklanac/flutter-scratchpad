@@ -1,4 +1,4 @@
-package com.example.scratchpad
+package com.chicagoworks.scratchpad
 
 import io.flutter.embedding.android.FlutterActivity
 
